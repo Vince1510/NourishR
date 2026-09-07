@@ -4,7 +4,7 @@ const Layout = () => {
     return (
         <>
             {/* Here goes the Navbar */}
-            <main>
+            <main className="h-dvh w-full">
                 <Outlet />
             </main>
             {/* Here goes the Footer */}
