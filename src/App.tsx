@@ -1,8 +1,15 @@
+import { Routes, Route } from "react-router";
+import Layout from "./components/Layout";
+import { Home } from "./pages";
+
 function App() {
   return (
-    <>
-      <h1>NourishR</h1>
-    </>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        {/* <Route path='/pictures' element={<Pictures />} /> */}
+      </Route>
+    </Routes>
   );
 }
 
