@@ -4,7 +4,7 @@ const en = {
         logoDark: "The logo of Nourish R made for the dark-theme",
     },
     home: {
-        title: "Welcome to NourishR",
+        title: "Welcome to Nourish", // Extra R in the text
     },
 };
 
@@ -19,7 +19,7 @@ export const translations: Record<Language, TranslationDictionary> = {
             logoDark: "Het logo van Nourish R gemaakt voor het donkere thema",
         },
         home: {
-            title: "Welkom bij NourishR",
+            title: "Welkom bij Nourish", // Extra R in the text
         },
     }
 };
