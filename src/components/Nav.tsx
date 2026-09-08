@@ -34,7 +34,7 @@ export default function Nav() {
         {/*Toolbar is de layout voor de content in de appbar*/}
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            NourishR
+            <img src="public/nourishr-logo-light.svg" alt="NourishR logo coloured by browser theme colour" />
           </Typography>
           {/* De icon knop */}
           <IconButton
